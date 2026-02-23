@@ -9,15 +9,48 @@
 
 
 <style type="text/css">
-    h2 {
-        color: rgb(205, 159, 98);
+    body {
+        font-family: monospace;
+        margin-left: 2cm;
+    }
+
+    a:link {
+        color: rgb(7, 7, 8);
+    }
+
+    a:visited {
+        color: rgb(5, 5, 5);
+    }
+
+    h1 {
+        color: rgb(165, 106, 106);
+        margin-bottom: 2px;
+    }
+
+    h3 {
+        color: rgb(93, 134, 194);
+    }
+
+    .estil1 {
+        font-size: small;
+        font-family: Palatino Linotype, serif;
+    }
+
+    #header {
+        background: #f9eaea;
+        width: 10%;
+        border-radius: 10px;
+
     }
 </style>
 
 
 <body>
-    <h2>HTML</h2>
-    <a href="https://andros.dev/cursos/html">Enllaç al curs d'HTML</a>
+
+    <div id="header">
+        <h1>HTML</h1>
+        <a href="https://andros.dev/cursos/html" class="estil1">Enllaç al curs d'HTML</a>
+    </div>
     <h3>Format</h3>
     <a href="html/02-formato/act1.html">Activitat 1</a><br />
     <a href="html/02-formato/act2.html">Activitat 2</a><br />
@@ -30,13 +63,15 @@
     <a href="html/04-llistes/act3.html">Activitat 3</a><br />
     <a href="html/04-llistes/act4.html">Activitat 4</a><br />
 
-
-    <h2>CSS</h2>
-    <a href="https://andros.dev/cursos/css">Enllaç al curs de CCS</a>
+    <div id="header">
+        <h1>CSS</h1>
+        <a href="https://andros.dev/cursos/css" class="estil1">Enllaç al curs de CCS</a>
+    </div>
     <h3>Selectors</h3>
     <a href="css/03-selectors/act1.html">Activitat 1</a><br />
     <a href="css/03-selectors/act2.html">Activitat 2</a><br />
-
+    <h3>BEM (Block Element Modifier)</h3>
+    <a href="css/06-bem/act1.html">Activitat 1</a><br />
 </body>
 
 </html>
