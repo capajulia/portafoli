@@ -6,7 +6,6 @@
     <style>
         body {
             font-family: monospace;
-            margin-left: 2cm;
         }
 
         a:link,
@@ -35,6 +34,26 @@
             border-radius: 10px;
 
         }
+
+        table {
+            width: 60%;
+            margin: 0px auto;
+            text-align: center;
+            border-spacing: 15px;
+        }
+
+        table tbody tr td:hover {
+            background: #f9eaea;
+            transition-duration: 1s;
+        }
+
+        table tbody tr,
+        table tbody tr th,
+        table tbody tr td {
+
+            border: solid 1px #000;
+            padding: 10px;
+        }
     </style>
 
     <meta charset="UTF-8">
@@ -42,39 +61,46 @@
     <title>Activitats</title>
 </head>
 
-
-
-
 <body>
-
-    <div class="header">
-        <h1>HTML</h1>
-        <a href="https://andros.dev/cursos/html" class="estil1">Enllaç al curs d'HTML</a>
-    </div>
-    <h3>Format</h3>
-    <a href="html/02-formato/act1.html">Activitat 1</a><br />
-    <a href="html/02-formato/act2.html">Activitat 2</a><br />
-    <a href="html/02-formato/act3.html">Activitat 3</a><br />
-    <h3>Hipervincles</h3>
-    <a href="html/03-hipervincles/act1.html">Activitat 1</a><br />
-    <a href="html/03-hipervincles/act3.html">Activitat 3</a><br />
-    <h3>Llistes</h3>
-    <a href="html/04-llistes/act2.html">Activitat 2</a><br />
-    <a href="html/04-llistes/act3.html">Activitat 3</a><br />
-    <a href="html/04-llistes/act4.html">Activitat 4</a><br />
-
-    <div class="header">
-        <h1>CSS</h1>
-        <a href="https://andros.dev/cursos/css" class="estil1">Enllaç al curs de CCS</a>
-    </div>
-    <h3>Selectors</h3>
-    <a href="css/03-selectors/act1.html">Activitat 1</a><br />
-    <a href="css/03-selectors/act2.html">Activitat 2</a><br />
-    <h3>Variables</h3>
-    <a href="css/04-variables/act1.html">Activitat 1</a><br />
-    <a href="css/04-variables/act2.html">Activitat 2</a><br />
-    <h3>Nomenclatura BEM</h3>
-    <a href="css/06-bem/act1.html">Activitat 1</a><br />
+    <table>
+        <tbody>
+            <tr>
+                <th class="header">
+                    <h1>HTML</h1>
+                    <a href="https://andros.dev/cursos/html" class="estil1">Enllaç al curs d'HTML</a>
+                </th>
+                <th class="header">
+                    <h1>CSS</h1>
+                    <a href="https://andros.dev/cursos/css" class="estil1">Enllaç al curs de CCS</a>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Format</h3>
+                    <a href="html/02-formato/act1.html">Activitat 1</a><br />
+                    <a href="html/02-formato/act2.html">Activitat 2</a><br />
+                    <a href="html/02-formato/act3.html">Activitat 3</a><br />
+                    <h3>Hipervincles</h3>
+                    <a href="html/03-hipervincles/act1.html">Activitat 1</a><br />
+                    <a href="html/03-hipervincles/act3.html">Activitat 3</a><br />
+                    <h3>Llistes</h3>
+                    <a href="html/04-llistes/act2.html">Activitat 2</a><br />
+                    <a href="html/04-llistes/act3.html">Activitat 3</a><br />
+                    <a href="html/04-llistes/act4.html">Activitat 4</a><br />
+                </td>
+                <td>
+                    <h3>Selectors</h3>
+                    <a href="css/03-selectors/act1.html">Activitat 1</a><br />
+                    <a href="css/03-selectors/act2.html">Activitat 2</a><br />
+                    <h3>Variables</h3>
+                    <a href="css/04-variables/act1.html">Activitat 1</a><br />
+                    <a href="css/04-variables/act2.html">Activitat 2</a><br />
+                    <h3>Nomenclatura BEM</h3>
+                    <a href="css/06-bem/act1.html">Activitat 1</a><br />
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
