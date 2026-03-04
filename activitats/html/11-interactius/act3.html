@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #menu-nav {
+            top: 6rem;
+            left: 0;
+            margin: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exemple de menú de navegació</h1>
+        <button popovertarget="menu-nav">☰</button>
+    </header>
+
+    <dialog popover id="menu-nav">
+        <nav>
+            <ul>
+                <li><a href="#">Inici</a></li>
+                <li><a href="#">Serveis</a></li>
+                <li><a href="#">Contacte</a></li>
+                <li><a href="#">Sobre nosaltres</a></li>
+            </ul>
+        </nav>
+        <button popovertarget="menu-nav">Tancar</button>
+    </dialog>
+
+</body>
+
+</html>
