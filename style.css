@@ -2,16 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: monospace;
 }
 
-
-header h2 {
-    text-align: center;
+h1 {
     font-family: Cambria, serif;
+    font-size: 160%;
+}
+
+header {
+    height: 5vh;
+    text-align: center;
+
 }
 
 
+.principal {
+    min-height: 90vh;
+    background-image: url(imatges/2.jpg);
+}
 
 aside a:link,
 aside a:visited {
@@ -23,10 +35,9 @@ aside a:visited {
 }
 
 aside a:hover {
-    margin: 20px;
+    margin: 10px;
     color: rgb(253, 254, 255);
-    transition-duration: 0.5s;
-    font-size: 120%;
+    transition-duration: 0.3s;
 }
 
 aside {
@@ -39,14 +50,18 @@ aside {
     padding: 10px;
 }
 
-.contingut {
-    min-height: 90vh;
-}
 
-.principal {
+.contingut {
     width: 70%;
     float: left;
     padding: 20px 40px;
+    font-family: Cambria, serif;
+}
+
+.contingut .box {
+    background-color: rgb(207, 217, 192);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 footer p {
