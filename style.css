@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
 }
 
+body {
+    font-family: monospace;
+}
 
 h1 {
     font-family: Cambria, serif;
@@ -12,8 +14,15 @@ h1 {
 }
 
 header {
+    height: 5vh;
     text-align: center;
-    background-image: url();
+
+}
+
+
+.principal {
+    min-height: 90vh;
+    background-image: url(imatges/2.jpg);
 }
 
 aside a:link,
@@ -41,15 +50,18 @@ aside {
     padding: 10px;
 }
 
-.principal {
-    min-height: 90vh;
-}
 
 .contingut {
     width: 70%;
     float: left;
     padding: 20px 40px;
     font-family: Cambria, serif;
+}
+
+.contingut .box {
+    background-color: rgb(207, 217, 192);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 footer p {
