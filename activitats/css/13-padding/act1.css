@@ -1,0 +1,51 @@
+body {
+    background-color: #FBEECB;
+}
+
+
+
+.contingut {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+.contingut h1 {
+    font-family: Georgia;
+}
+
+.contingut p {
+    padding: 20px;
+    font-size: 150%;
+}
+
+img {
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background-color: rgb(203, 221, 254);
+    width: 100%;
+    text-align: center;
+    font-family: Calibri;
+    padding: 2rem;
+    margin: 10rem 0rem;
+}
+
+.suscribe {
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+
+.compare {
+    padding: 20px;
+}
