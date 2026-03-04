@@ -6,12 +6,15 @@
 }
 
 
-header h2 {
-    text-align: center;
+h1 {
     font-family: Cambria, serif;
+    font-size: 160%;
 }
 
-
+header {
+    text-align: center;
+    background-image: url();
+}
 
 aside a:link,
 aside a:visited {
