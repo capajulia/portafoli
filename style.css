@@ -26,10 +26,9 @@ aside a:visited {
 }
 
 aside a:hover {
-    margin: 20px;
+    margin: 10px;
     color: rgb(253, 254, 255);
-    transition-duration: 0.5s;
-    font-size: 120%;
+    transition-duration: 0.3s;
 }
 
 aside {
@@ -42,14 +41,15 @@ aside {
     padding: 10px;
 }
 
-.contingut {
+.principal {
     min-height: 90vh;
 }
 
-.principal {
+.contingut {
     width: 70%;
     float: left;
     padding: 20px 40px;
+    font-family: Cambria, serif;
 }
 
 footer p {
