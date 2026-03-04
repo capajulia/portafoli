@@ -1,0 +1,7 @@
+img {
+    width: 60%;
+}
+
+img:hover {
+    filter: invert(100%);
+}
