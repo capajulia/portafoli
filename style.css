@@ -6,9 +6,47 @@
 }
 
 
-a:link,
-a:visited {
+header h2 {
+    text-align: center;
+    font-family: Cambria, serif;
+}
+
+
+
+aside a:link,
+aside a:visited {
+    display: block;
     color: black;
+    text-decoration: none;
+    font-size: 110%;
+    padding: 10px;
+}
+
+aside a:hover {
+    margin: 20px;
+    color: rgb(253, 254, 255);
+    transition-duration: 0.5s;
+    font-size: 120%;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    min-height: 90vh;
+    background-color: rgb(144, 191, 166);
+    border-radius: 0 20px 20px 0;
+    text-align: right;
+    padding: 10px;
+}
+
+.contingut {
+    min-height: 90vh;
+}
+
+.principal {
+    width: 70%;
+    float: left;
+    padding: 20px 40px;
 }
 
 footer p {

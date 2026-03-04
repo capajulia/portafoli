@@ -1,0 +1,14 @@
+caption {
+    padding: 10px;
+    background-color: rgb(135, 177, 255);
+    font-family: monospace;
+    font-weight: bold;
+}
+
+table {
+    width: 35rem;
+}
+
+table tr td {
+    padding: 10px;
+}
