@@ -16,28 +16,42 @@ h1 {
 }
 
 header {
-    font-family: Cambria, serif;
     height: 5vh;
-    text-align: center;
     background-color: rgba(251, 255, 245, 0.7);
 }
 
+header a:link,
+header a:visited {
+    font-family: Cambria, serif;
+    font-size: 300%;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    filter: opacity(50%);
+}
+
 header:hover {
-    font-size: 150%;
     background-color: rgba(251, 255, 245, 0.1);
     transition-duration: 0.5s;
 }
 
 .principal {
     min-height: 90vh;
+}
 
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 aside a:link,
 aside a:visited {
     display: block;
-    color: black;
-    text-decoration: none;
     font-size: 110%;
     padding: 10px;
 }
@@ -59,7 +73,6 @@ aside {
     padding: 10px;
 }
 
-
 .contingut {
     margin-left: 250px;
     padding: 20px 40px;
@@ -80,13 +93,12 @@ aside {
 }
 
 footer {
-    height: 10vh;
+    font-style: italic;
     text-align: center;
     padding: 10px;
     background-color: antiquewhite;
+    overflow: hidden;
 }
-
-
 
 footer .social {
     float: right;
@@ -97,4 +109,86 @@ footer .social {
 
 footer .social img {
     width: 20px;
+}
+
+/**********************************
+FORMULARI
+**********************************/
+form {
+    font-family: monospace;
+    background-color: rgba(144, 191, 166, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+form input[type="submit"] {
+    padding: 5px 20px;
+}
+
+form input,
+form textarea {
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 6px;
+    border: none;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    background-image: url(imatges/h.jpg);
+    color: white;
+}
+
+/**********************************
+ ACTIVITATS
+**********************************/
+
+
+.activitats h1 {
+    color: rgb(165, 106, 106);
+    margin-bottom: 2px;
+    font-family: Cambria, Georgia, serif;
+}
+
+.activitats h3 {
+    color: rgb(37, 94, 155);
+    padding: 10px;
+    background-color: rgba(253, 253, 253, 0.6);
+}
+
+.activitats .estil1 {
+    font-size: small;
+    font-family: Palatino Linotype, serif;
+}
+
+.activitats .header {
+    background: #f9eaea;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.activitats table {
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    border-spacing: 15px;
+}
+
+
+.activitats tr {
+    background-image: url(imatges/1.jpg);
+    border: solid 1px #000;
+    padding: 10px;
+}
+
+.activitats td a {
+    background-color: rgba(251, 255, 245, 0.6);
+    margin: 10px;
+}
+
+.activitats td a:hover {
+    background-color: white;
+    padding: 6px;
+    border-radius: 20px;
 }
