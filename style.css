@@ -79,8 +79,22 @@ aside {
     background-color: rgba(251, 255, 245, 0.6);
 }
 
-footer p {
+footer {
+    height: 10vh;
     text-align: center;
     padding: 10px;
     background-color: antiquewhite;
+}
+
+
+
+footer .social {
+    float: right;
+    width: 20%;
+    background-color: rgb(212, 229, 230);
+    border-radius: 20px;
+}
+
+footer .social img {
+    width: 20px;
 }
