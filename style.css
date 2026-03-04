@@ -41,7 +41,7 @@ aside a:hover {
 }
 
 aside {
-    width: 30%;
+    width: 30vw;
     float: left;
     min-height: 90vh;
     background-color: rgb(144, 191, 166);
@@ -52,8 +52,7 @@ aside {
 
 
 .contingut {
-    width: 70%;
-    float: left;
+    margin-left: 30vw;
     padding: 20px 40px;
     font-family: Cambria, serif;
 }
