@@ -1,0 +1,18 @@
+.kodak {
+    color: rgb(238, 197, 15);
+    font-weight: bold;
+}
+
+.lila {
+    color: rgb(123, 50, 179);
+}
+
+.hverd {
+    background-color: rgb(104, 165, 11);
+    color: white;
+}
+
+.year {
+    background-color: rgb(58, 82, 242);
+    color: white;
+}
