@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulari de registre</h1>
+
+    <form action="#" method="post">
+
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+        <br><br>
+
+        <label for="email">Correu electrònic</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="contrasenya">Contrasenya</label>
+        <input type="password" id="contrasenya" name="contrasenya" required>
+        <br><br>
+
+        <label>
+            Data de naixement
+            <input type="date" name="data-naixement">
+        </label>
+        <br><br>
+
+        <label for="pais">País</label>
+        <select id="pais" name="pais">
+            <option value="es">Espanya</option>
+            <option value="fr">França</option>
+            <option value="de">Alemanya</option>
+        </select>
+        <br><br>
+
+        <label>
+            <input type="checkbox" name="termes" required>
+            Accepto els termes i condicions
+        </label>
+        <br><br>
+
+        <button type="submit">Registrar-me</button>
+
+    </form>
+</body>
+
+</html>
