@@ -143,18 +143,25 @@ form textarea:focus {
 /**********************************
  ACTIVITATS
 **********************************/
+.activitats .header {
+    background: rgba(233, 164, 164, 0.3);
+    padding: 20px;
+}
 
-
-.activitats h1 {
+.activitats .header h1 {
     color: rgb(165, 106, 106);
     margin-bottom: 2px;
-    font-family: Cambria, Georgia, serif;
+}
+
+.activitats .header a {
+    font-style: italic;
+    font-size: 100%;
 }
 
 .activitats h3 {
-    color: rgb(37, 94, 155);
+    color: rgb(254, 254, 255);
     padding: 10px;
-    background-color: rgba(253, 253, 253, 0.6);
+    background-color: rgba(129, 125, 125, 0.6);
 }
 
 .activitats .estil1 {
@@ -162,11 +169,6 @@ form textarea:focus {
     font-family: Palatino Linotype, serif;
 }
 
-.activitats .header {
-    background: #f9eaea;
-    width: 150px;
-    border-radius: 20px;
-}
 
 .activitats table {
     width: 70%;
@@ -180,15 +182,17 @@ form textarea:focus {
     background-image: url(imatges/1.jpg);
     border: solid 1px #000;
     padding: 10px;
+
 }
 
 .activitats td a {
-    background-color: rgba(251, 255, 245, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 10px;
+    border-radius: 20px;
 }
 
-.activitats td a:hover {
-    background-color: white;
-    padding: 6px;
-    border-radius: 20px;
+.activitats td a:hover,
+{
+background-color: white;
+border-radius: 20px;
 }
