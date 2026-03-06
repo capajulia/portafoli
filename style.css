@@ -223,7 +223,7 @@ RELLOTGE
     height: 200px;
     border: 8px solid rgb(239, 232, 228);
     border-radius: 50%;
-    background-image: url(../../../imatges/cd.jpg);
+    background-image: url(imatges/cd.jpg);
     background-size: cover;
     position: relative;
 }
