@@ -2,13 +2,7 @@
 <html lang="en">
 
 <head>
-    <style>
-
-    </style>
-
-
-
-
+    <link rel="stylesheet" href="act1.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -16,6 +10,33 @@
 
 
 <body>
+    <header class="header">
+        <img class="header__logo" src="../../../imatges/cd2.jpg" alt="Logo " height="50">
+
+        <nav class="header__nav">
+            <a class="nav nav--link" href="#inici">Inici</a>
+            <a class="nav nav--link" href="#serveis">Serveis</a>
+            <a class="nav nav--link" href="#contacte">Contacte</a>
+        </nav>
+
+        <form class="header__search" action="" method="get">
+            <input class="search search--input" type="text" placeholder="Cerca">
+            <input type="submit" value="Cercar">
+        </form>
+    </header>
+
+    <br />
+
+    <section class="explicacio">
+        Regles de BEM:
+        <ol class="explicacio__list list--estil">
+            <li>Es posa class a tot sempre: class="bloc"</li>
+            <li>Els elements dins d'un bloc: class="bloc__element"</li>
+            <li>Per canviar l'aparença o el comportament (modificadors): class="link link--verd"</li>
+        </ol>
+        És molt útil en els projectes grans i complexos.
+    </section>
+
 
 </body>
 
