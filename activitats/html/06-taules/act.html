@@ -58,10 +58,16 @@
 
     <table>
         <caption>caption: títol de la taula</caption>
+        <thead>
+            <tr>
+                <th scope="col">Etiqueta</th>
+                <th scope="col">Descripció</th>
+            </tr>
+        </thead>
         <tbody>
             <tr>
                 <th scope="row">th</th>
-                <td>títols</td>
+                <td>títols. cal posar sempre l'atribut scope (row o col)</td>
             </tr>
             <tr>
                 <th scope="row">tr</th>
@@ -70,6 +76,10 @@
             <tr>
                 <th scope="row">td</th>
                 <td>cel·les dins la fila</td>
+            </tr>
+            <tr>
+                <th scope="row">thead, tbody, tfoot</th>
+                <td>dins la taula podem posar capçelera, cos i peu de taula</td>
             </tr>
         </tbody>
     </table>
