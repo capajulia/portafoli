@@ -1,0 +1,16 @@
+.arquitectura {
+    width: 25vw;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(194, 209, 200);
+}
+
+.arquitectura--p {
+    height: 10rem;
+    overflow-y: scroll;
+}
+
+body {
+    background-color: darkseagreen;
+}
