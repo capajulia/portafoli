@@ -143,17 +143,17 @@ form textarea:focus {
 /**********************************
  ACTIVITATS
 **********************************/
-.activitats .header {
+.activitats thead {
     background: rgba(233, 164, 164, 0.3);
     padding: 20px;
 }
 
-.activitats .header h1 {
+.activitats thead h1 {
     color: rgb(165, 106, 106);
     margin-bottom: 2px;
 }
 
-.activitats .header a {
+.activitats thead a {
     font-style: italic;
     font-size: 100%;
 }
@@ -191,8 +191,7 @@ form textarea:focus {
     border-radius: 20px;
 }
 
-.activitats td a:hover,
-{
-background-color: white;
-border-radius: 20px;
+.activitats td a:hover {
+    background-color: white;
+    border-radius: 20px;
 }
