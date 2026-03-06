@@ -27,18 +27,24 @@
 
             <form>
                 <span>Informació de contacte</span>
-                <br>
+                <br />
+                <label for="nom">Nom</label>
                 <input type="text" name="nom" placeholder="Nom">
-                <br>
-                <input type="text" name="email" placeholder="email">
-                <input type="text" maxlength="9" name="telf" placeholder="telèfon">
-                <br>
+                <br />
+                <label for="email">Correu electrònic</label>
+                <input type="text" name="email" placeholder="exemple@gmail.com">
+                <br />
+
+                <label for="telf">Telèfon</label>
+                <input type="text" maxlength="9" name="telf" placeholder="Telèfon">
+                <br />
                 <span>Motiu de contacte</span>
-                <br>
+                <br />
                 <input type="text" name="assumpte" placeholder="Assumpte">
-                <br>
-                <textarea name="missatge" placeholder="Motiu contacte" rows="15" cols="50"></textarea>
-                <br>
+                <br />
+                <textarea id="missatge" name="missatge" placeholder="Escriu aquí el teu missatge..." rows="8"
+                    cols="40"></textarea>
+                <br />
                 <input type="submit" value="Enviar consulta">
             </form>
         </div>

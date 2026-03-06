@@ -1,0 +1,36 @@
+@keyframes rotacio {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.loading {
+    height: 20px;
+    width: 4px;
+    background-color: black;
+    animation-name: rotacio, fade;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: bottom;
+}
+
+.posicio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

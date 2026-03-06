@@ -121,6 +121,13 @@ form {
     padding: 20px;
 }
 
+form span {
+    font-family: Cambria, serif;
+    font-weight: bolder;
+    font-size: 160%;
+    color: rgb(1, 85, 76);
+}
+
 form input[type="submit"] {
     padding: 5px 20px;
 }

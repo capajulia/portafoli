@@ -1,0 +1,46 @@
+@keyframes rotacio {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rellotge {
+    width: 200px;
+    height: 200px;
+    border: 8px solid rgb(177, 161, 152);
+    border-radius: 50%;
+    background-image: url(../../../imatges/1.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.agulla {
+    animation-name: rotacio;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: bottom;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+
+.hores {
+    background-color: black;
+    height: 60px;
+    width: 6px;
+    border-radius: 50%;
+    animation-duration: 43200s;
+    /* 12 h */
+}
+
+.minuts {
+    background-color: rgb(194, 98, 98);
+    height: 108px;
+    width: 6px;
+    border-radius: 50%;
+    animation-duration: 3600s;
+}
