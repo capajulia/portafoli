@@ -11,9 +11,9 @@
 .rellotge {
     width: 200px;
     height: 200px;
-    border: 8px solid rgb(177, 161, 152);
+    border: 8px solid rgb(239, 232, 228);
     border-radius: 50%;
-    background-image: url(../../../imatges/1.jpg);
+    background-image: url(../../../imatges/cd.jpg);
     background-size: cover;
     position: relative;
 }
@@ -28,19 +28,27 @@
     left: 50%;
 }
 
-.hores {
-    background-color: black;
-    height: 60px;
+.segons {
+    background-color: rgb(251, 251, 251);
+    height: 108px;
     width: 6px;
     border-radius: 50%;
-    animation-duration: 43200s;
-    /* 12 h */
+    animation-duration: 60s;
 }
 
 .minuts {
-    background-color: rgb(194, 98, 98);
+    background-color: black;
     height: 108px;
     width: 6px;
     border-radius: 50%;
     animation-duration: 3600s;
+}
+
+.hores {
+    background-color: rgb(169, 169, 169);
+    height: 60px;
+    width: 10px;
+    border-radius: 50%;
+    animation-duration: 43200s;
+    /* 12 h */
 }
