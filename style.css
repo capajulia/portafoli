@@ -65,7 +65,6 @@ aside a:hover {
 aside {
     width: 250px;
     float: left;
-    float: left;
     min-height: 90vh;
     background-color: rgba(144, 191, 166, 0.8);
     border-radius: 0 20px 20px 0;
@@ -79,6 +78,7 @@ aside {
     font-family: Cambria, serif;
     line-height: 1.5;
 }
+
 
 .contingut .box {
     background-color: rgb(207, 217, 192);
@@ -201,4 +201,63 @@ form textarea:focus {
 .activitats td a:hover {
     background-color: white;
     border-radius: 20px;
+}
+
+/******************************
+RELLOTGE
+******************************/
+
+
+@keyframes rotacio {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rellotge {
+    width: 200px;
+    height: 200px;
+    border: 8px solid rgb(239, 232, 228);
+    border-radius: 50%;
+    background-image: url(../../../imatges/cd.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.rellotge .agulla {
+    animation-name: rotacio;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: bottom;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+
+.rellotge .segons {
+    background-color: rgb(251, 251, 251);
+    height: 100px;
+    width: 6px;
+    border-radius: 50%;
+    animation-duration: 60s;
+}
+
+.rellotge .minuts {
+    background-color: black;
+    height: 100px;
+    width: 6px;
+    border-radius: 50%;
+    animation-duration: 3600s;
+}
+
+.rellotge .hores {
+    background-color: rgb(169, 169, 169);
+    height: 60px;
+    width: 6px;
+    border-radius: 50%;
+    animation-duration: 43200s;
 }
